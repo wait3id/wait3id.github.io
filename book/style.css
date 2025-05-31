@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to right, #fefcea, #f1da36);
+    /* padding-top: 80px; */
+    color: #333;
+    text-align: center;
+  }
+  .fade-in {
+    animation: fadeIn 1.5s ease-in;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .my-card-img-top {
+    max-height: 250px;
+    object-fit: cover;
+  }
+.my-card{
+  margin: 30px;
+  padding: 20px;
+}
+  .book-section {
+    margin-bottom: 4rem;
+  }
+  .my-card-body {
+    text-align: center;
+  }
+  .my-card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+.text-container {
+  max-width: 600px;
+}
+
+.my-card-2{
+  background-color: #f1edc9;
+  padding: 15px;
+  border-radius:10px;
+}
+.my-card-3{
+  background-color: #f1edc9;
+  padding: 15px;
+  border-radius:10px;
+}
+.my-card-4{
+  background-color: #f1edc9;
+  padding: 15px;
+  border-radius:10px;
+}
+.footer{
+  background-color: #453d20;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #f1edc9;
+}
+.col-auto{
+padding-left: 5px;
+padding-right: 5px;
+}
+h1, h2, h3{
+  font-family: "Roboto Slab", serif;
+
+}
+p{
+  font-family: "Montserrat", sans-serif;
+
+}
